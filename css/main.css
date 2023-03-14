@@ -1,0 +1,204 @@
+/*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
+
+/* CSS FOR ROGUE PICKINGS WEBSITE */
+/* SET THE FONT FAMILY USED IN FOOTER HTML (see font folder) */
+@font-face {
+	font-family: "Wisdom Script";
+	src: url("../fonts/wisdom-script.otf") format("opentype");
+  }
+  
+  /* DEFINE DEFAULT FONT FAMILY FOR BODY */
+  body {
+	font-family: "Montserrat", Helvetica, Arial, sans-serif;
+  /* TEST BACKGROUND COLOR CHANGE */
+  /* background-color:cornflowerblue; */
+  }
+  
+  /* ADD STYLE TO MAIN OUTER RECEPTICAL */
+  /* ALSO UPDATE NORMALIZE VER TO INCLUDE WIDTH AND SET MARGIN TO AUTO*/
+  .package {
+	width: 1200px;
+	margin: 0 auto;
+  }
+  
+  /* ADD INITIAL STYLE TO ALL HEADINGS */
+  /* ALSO SET BOTTOM SECTION HEADINGS TO UPPERCASE */
+  h1,
+  h2,
+  h3,
+  h4 {
+	color: black;
+	text-transform: uppercase;
+	font-weight: 700;
+  }
+  h1 {
+	font-size: 30px;
+  }
+  h2 {
+	font-size: 24px;
+  }
+  h3 {
+	font-size: 18px;
+  }
+  h4 {
+	font-size: 12px;
+  }
+  
+  p {
+	font-size: 14px;
+	line-height: 21px;
+	padding: 0 30px;
+  }
+  
+  .content-wrapper {
+    width: 1200px;
+    margin: 0 auto;
+    overflow: auto;
+}
+  
+  /* ADD STYLE TO HEADER SECTION */
+  header {
+	height: 110px;
+	border-bottom: 3px solid #77a466;
+	margin: 0 auto;
+  }
+  
+  header h1 {
+	float: left;
+	margin: 0;
+	padding: 38px 0;
+  }
+  
+  /* ADD COLOR TO COMPANY NAME IN HEADER SECTION */
+  header h1 span {
+	color: #77a466;
+  }
+  
+  header nav {
+	float: right;
+	padding: 46px 0;
+  }
+  header nav ul {
+	margin: 0;
+	padding: 0;
+  }
+  
+  /* ADD STYLE TO HEADER NAVIGATION INCLUDING UPPERCASE AND COLOR */
+  header nav ul li {
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 14px;
+	padding: 0 10px;
+	display: inline;
+  }
+  header nav ul li a {
+	text-decoration: none;
+	color: #77a466;
+  }
+  
+  /* ADD STYLE TO TOP SECTION AND BOTTOM SECTION */
+  .top-section,
+  .bottom-section {
+	margin: 0 auto;
+	clear: both;
+  }
+  
+  .picmsg-one {
+	height: auto;
+	float: left;
+  }
+  .picmsg-one img {
+	border-bottom: 3px solid #77a466;
+  }
+  
+  /* ADD STYLE TO COMPANY ABOUT-US TYPE STATEMENT */
+  .picmsg-two {
+	height: auto;
+	float: left;
+  }
+  .picmsg-two h3 {
+	text-align: left;
+	padding: 5px 0;
+	color: #77a466;
+  }
+  .picmsg-two p {
+	padding: 0;
+	font-size: 16px;
+	line-height: 25px;
+  }
+  
+  /* ADD STYLE TO BOTTOM SECTION */
+  .area-one,
+  .area-two,
+  .area-three {
+	width: 399px;
+	height: auto;
+	float: left;
+	border-top: 1px solid #eee;
+  }
+  
+  .area-one h4 {
+	padding: 10px 0;
+  }
+  
+  .area-two {
+	border-left: 1px solid #eee;
+	border-right: 1px solid #eee;
+  }
+  
+  .area-two h4,
+  .area-three h4 {
+	padding: 10px 30px;
+  }
+  
+  /* ADD STYLE TO LIST OF TODAYS SPECIALS */
+  .food-list {
+	list-style: none;
+	padding: 0;
+  }
+  .food-list li {
+	padding: 10px 0;
+	color: #77a466;
+  }
+  
+  /* ADD STYLE TO AWESOME REVIEWS */
+  .cust-comments {
+	color: #333;
+	font-size: 16px;
+	line-height: 21px;
+  }
+  
+  /* ADD STYLE TO CONTACT ADDRESS */
+  .our-location {
+	font-size: 16px;
+	line-height: 24px;
+  }
+  
+  /* FANCY UP THE FOOTER MESSAGE */
+  footer {
+	height: 50px;
+	border-top: 3px solid #eee;
+	margin: 0 auto;
+	clear: both;
+	text-align: center;
+  }
+  footer span {
+	font-family: "Wisdom Script", cursive;
+	text-transform: lowercase;
+	color: #77a466;
+	font-size: 14px;
+  }
+
+   /* BONUS PROJECT -- ADD SOME STYLING TO MAKE NAV BAR LOOK BETTER */
+   ul {
+    list-style-type:none;
+    margin:0;
+    padding:0;
+   }
+   li {
+    display:inline-block;
+    margin-right:1px;
+   }
+    
+  
+  
